@@ -1,10 +1,10 @@
-import { AngularMaterialAppPage } from './app.po';
+import { AngularMaterialStarterPage } from './app.po';
 
-describe('angular-material-app App', function() {
-  let page: AngularMaterialAppPage;
+describe('angular-material-starter App', () => {
+  let page: AngularMaterialStarterPage;
 
   beforeEach(() => {
-    page = new AngularMaterialAppPage();
+    page = new AngularMaterialStarterPage();
   });
 
   it('should display message saying app works', () => {
